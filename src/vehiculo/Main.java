@@ -3,11 +3,18 @@ package vehiculo;
 
 /**
  *
- * @author 
+ * @author FernandoDiaz
+ * @since 28/04/2024
+ * @version 1.0
  */
 public class Main {
     
+        /**
+         * Metodo main
+         * @param args 
+         */
       public static void main(String[] args) {
+          
         miVehiculoFDC2223 miVehiculoXXX2223;
         int stockActual;
         
@@ -17,7 +24,13 @@ public class Main {
         System.out.println("El stock actual es "+ stockActual );
     }
 
+      /**
+       * Metodo para operativaVehiculo
+       * @param miVehiculoXXX2223
+       * @param cantidad 
+       */
     static void operativaVehiculosFDC2223(miVehiculoFDC2223 miVehiculoXXX2223, int cantidad) {
+        
         try
         {
             System.out.println("Venta de Vehiculos");
